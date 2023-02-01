@@ -859,18 +859,18 @@ textarea {
 }
 @media (max-width: 991px) {
   .testimonials .testim-cont .col.profile .image {
-    width: 100px;
     margin-right: 20px;
     margin-bottom: 0;
   }
 
   .testimonials .testim-cont .col.profile .image img {
     margin-bottom: 0;
+    width: 100px
   }
 }
 
 .testimonials .testim-cont .col.profile img {
-  width: 100%;
+  width: 500px;
   border-radius: 4px;
   margin-bottom: 20px;
 }
