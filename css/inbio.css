@@ -853,6 +853,8 @@ textarea {
 .testimonials .testim-cont .col.profile .image{
   margin-right: 0;
   margin-bottom: 20px;
+  overflow: hidden;
+  border-radius: 6px;
 }
 @media (max-width: 991px) {
   .testimonials .testim-cont .col.profile .image {
