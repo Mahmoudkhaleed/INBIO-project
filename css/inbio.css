@@ -832,7 +832,7 @@ textarea {
 }
 
 .testimonials .testim-cont .col.profile {
-  width: 40%;
+  flex-basis: 40%;
   box-shadow: 5px 5px 10px rgb(0 0 0/20%),
     -5px -5px 10px rgb(300 300 300/5%);
   padding: 30px;
@@ -842,7 +842,7 @@ textarea {
 
 @media (max-width: 991px) {
   .testimonials .testim-cont .col.profile {
-    width: 100%;
+    flex-basis: 100%;
     display: flex;
     align-items: center;
     margin-right: 0;
