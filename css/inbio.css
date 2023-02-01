@@ -834,7 +834,7 @@ textarea {
 }
 
 .testimonials .testim-cont .col.profile {
-  width: 30%;
+  width: 40%;
   box-shadow: 5px 5px 10px rgb(0 0 0/20%),
     -5px -5px 10px rgb(300 300 300/5%);
   padding: 30px;
@@ -953,7 +953,7 @@ textarea {
 }
 
 .testimonials .testim-cont .col .quote-slider>.icon {
-  font-size: 120px;
+  font-size: 160px;
   color: var(--black);
   line-height: .6;
 }
@@ -996,6 +996,7 @@ textarea {
   border-radius: 6px;
   padding: 30px;
   position: relative;
+  height: 100%
 }
 
 .testimonials .testim-cont .col .opinion::before {
