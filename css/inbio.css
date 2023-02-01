@@ -859,6 +859,7 @@ textarea {
 }
 @media (max-width: 991px) {
   .testimonials .testim-cont .col.profile .image {
+    width: 100%;
     margin-right: 20px;
     margin-bottom: 0;
   }
@@ -911,7 +912,8 @@ textarea {
   }
 }
 .testimonials .testim-cont .col:nth-child(2){
-  flex-grow: 1
+  flex-grow: 1;
+  width: 70%;
 }
 .testimonials .testim-cont .col .quote-slider {
   display: flex;
@@ -920,6 +922,9 @@ textarea {
 }
 
 @media (max-width: 991px) {
+  .testimonials .testim-cont .col:nth-child(2){
+    width: 100%
+  }
   .testimonials .testim-cont .col .quote-slider {
     display: none;
   }
